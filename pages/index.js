@@ -30,10 +30,10 @@ export default function Home({ quote }) {
               </Link>
             </p>
           </div>
-          <div className="quote-container whitespace-normal flex flex-col items-center min-w-max">
-            <span className='bg-gray-200/50 p-8 my-4 rounded-md'>
+          <div className="quote-container bg-gray-200/50 p-8 my-12 rounded-md lg:mx-32 md:mx-20 mx-4">
+            <p>
               &#8220;{quoteForSession}&#8220;
-            </span>
+            </p>
           </div>
           <div className="quotes-interaction-container my-12 space-x-2.5" >
             <a onClick={() => setquoteForSession(getQuote(quote))}>
